@@ -16,5 +16,5 @@ class Singleton:
         return cls.__instance
 
 s = Singleton() # 类实例化，但不创建类对象
-print(s.getinstance())
+print(Singleton.getinstance(s))
 s1 = Singleton()
